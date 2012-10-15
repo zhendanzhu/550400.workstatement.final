@@ -1,0 +1,63 @@
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=cont-en 2012.6.30)  15 OCT 2012 15:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**biblioWS.bib
+(./biblioWS.bib
+
+systems         : BEWARE: synctex functionality is enabled!
+
+
+ConTeXt  ver: 2012.05.30 11:26 MKII  fmt: 2012.6.30  int: english/english
+
+system          : cont-new.mkii loaded
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/cont-new.mkii
+systems         : beware: some patches loaded from cont-new.mkii
+)
+system          : cont-sys.tex loaded
+(/usr/local/texlive/2012/texmf-config/tex/context/user/cont-sys.tex
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/type-siz.mkii)
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/type-otf.mkii)
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/type-xtx.mkii))
+system          : biblioWS.top loaded
+(./biblioWS.top)
+bodyfont        : 12pt rm is loaded
+language        : patterns nl->default:default->1->2:2 us->default:default->2->
+2:3 de->default:default->3->3:3 da->default:default->4->2:2 sv->default:default
+->5->2:2 af->default:default->6->2:2 gb->default:default->7->2:2 fr->default:de
+fault->8->2:2 es->default:default->9->2:2 ca->default:default->10->2:2 it->defa
+ult:default->11->2:2 la->default:default->12->2:2 pt->default:default->13->2:2 
+ro->default:default->14->2:2 pl->default:default->15->2:2 cs->default:default->
+16->2:2 sk->default:default->17->2:2 hr->default:default->18->2:2 sl->default:d
+efault->19->2:2 tr->default:default->20->2:2 tk->default:default->21->1:2 lt->d
+efault:default->22->2:2 agr->default:default->24->2:2 fi->default:default->25->
+2:2 hu->default:default->26->2:2 ru->default:default->28->2:2 uk->default:defau
+lt->29->3:3  loaded
+specials        : dvips loaded
+\openout3 = `biblioWS.tui'.
+
+\openout0 = `biblioWS-mpgraph.mp'.
+
+language        : language en is active
+specials        : loading definition file dpx
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/spec-dpx.mkii
+specials        : loading definition file fdf
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/spec-fdf.mkii))
+specials        : loading definition file xet
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/spec-xet.mkii))
+*
+! Emergency stop.
+<*> biblioWS.bib
+                
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 885 strings out of 459417
+ 16292 string characters out of 2578996
+ 4681731 words of memory out of 7182337
+ 39233 multiletter control sequences out of 15000+200000
+ 12449 words of font info for 37 fonts, out of 3000000 for 9000
+ 305 hyphenation exceptions out of 8191
+ 36i,1n,31p,220b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

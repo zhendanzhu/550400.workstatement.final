@@ -1,0 +1,120 @@
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{natbib}
+
+\theoremstyle{definition}
+\newtheorem{dfn}{Definition}
+
+\begin{document}
+
+% The numbers below controls the amount of space between the following sections
+\def\shiftdowna{0.32in}  % Adjust for balance
+\def\shiftdownb{0.22in}  % Adjust for balance
+
+% Set up the boiler plate at the top of the page
+
+\begin{center}
+\textbf{{\large Project Work Statement}}\\
+
+
+% SPONSOR
+\vspace \shiftdowna
+\underline {Sponsor}\\ 
+\vspace{5pt}
+\textbf{{\large FIFA}}\\
+
+
+% TITLE
+\vspace \shiftdowna
+\textbf{{\large  Injury Time in Football Game}}
+
+
+% STUDENTS
+\vspace{0.35in}
+\vspace \shiftdownb
+\underline {Participants} \\
+\vspace{5pt}
+\text{Zhendan Zhu}, \texttt{zzhu11@jhu.edu}
+
+% SPONSORS
+\vspace \shiftdownb
+\underline {Potential Participants}\\
+\vspace{5pt} \ \\
+\vspace{3pt}
+\text{}\texttt{} \\
+\vspace{3pt}
+\text{} \texttt{}
+
+% DATE
+\vspace \shiftdowna
+Date: \today
+
+\end{center}
+
+\vfill  
+%Fill page to force following note to bottom
+\footnoterule
+\noindent \small{Any apparent association of this work to FIFA is
+fictional one, and the sole purpose of this work is a class exercise}
+
+\newpage
+
+\section{Background} 
+As the No.~1 sport in the world, soccer has become a more and more popular with increasing influence in everyday life. People can get all the details about the match thorough TV and Internet. The fairness of the game would be of special importance. FIFA, headquartered in Zurich, Switherland, is an organization that oversees the major professional games and it is responsible for making the law of the game. In this proposal we'll focus on effect of the injury time to the final result. Thus help FIFA to better evaluate it's policy on the rights of referee. 
+
+\section{Problem Statement}
+
+Consider a situation that Team A is behind Team B when the game is going to end. The referee has the right decide how many minutes to add in injury time. We called A loser and B winner in 90 mins. If the injury time is long enough, A have the chance to catch up and make a tie. But it is also possible that B will enlarge the gap and make the final result unchanged. Our problem is to explore the relationship between the length of injury time and the chance of the loser in 90 mins win the game in the end. If we can find a length of injury time, exceeding of which will significant favoring the loser, it will be a very helpful reference to FIFA in making the policy on the injury time.
+
+\section{Approach}
+General description:
+Since the real games have very limited data for injury time, we simplify the problem by a simulation approach based on actual statistics from real games. 
+\\Assumptions:
+\\(1)The time between two goals follows exponential distribution.
+\\(2)There is no difference for the distribution for the goal time in the 90-mins game and injury time.
+\\Methodology  \cite{IMM1978}
+
+We can first collect data of matches from FIFA, which includes the total length of the injury time, the goal record, and the level of the game. We will devide the game into 5 levels and did crosssectional regression to get coefficients for the exponential distribution. Then we can use the model with estimate coefficient to simulate a football match, and explore the effect of injury time. Finally establish a model for the injury time and final result.
+\\Backtesting:
+\\To make the result more convinceful, we will do back testing on the assumption of exponential distribution by hypothesis test. We will compare our estimated probability of the loser in 90 mins to make reversal in injury time by comparing the theoretical distribution and the actual distribution. 
+
+ 
+\section{Milestones}
+We have the following major deadlines:
+\begin{itemize}
+    \item Work Statement due date, Oct 1, 2012,
+    \item Midterm Presentation due date, Oct 12, 2012,
+    \item Progress Report due date, Oct 26, 2012,
+    \item Final Presentation due date, Nov 6, 2012,
+    \item Final Report due date, Nov 30, 2012.
+\end{itemize}
+
+\section{Deliverable}
+\subsection{From Team to Sponsor} % (fold)
+The following outputs are expected from this project:
+\begin{itemize}
+    \item Estiblished model for injury time and game result,
+    \item Algorithms for monitoring a football game,
+    \item Numerical experiment results reporting the effect of injury time to game result,
+    \item R package with a complete set of documentations along with some test 
+        codes that can be used to reproduce our numerical and simulation test
+        results,
+    \item Technical report and presentations summarizing the work. 
+\end{itemize}
+
+\subsection{From Sponsor to Team} % (fold)
+
+In order for our project to be of successful one, we will need:
+\begin{itemize}
+    \item The videos for the matches of major leagues in the world before Oct. 16 2012,
+    \item Historical data for each games in five primier leagues and A-level international games,
+    \item Symposium attendance travel expenses.
+\end{itemize}
+
+\bibliographystyle{plain}
+\bibliography{biblioWS}
+
+\end{document}
